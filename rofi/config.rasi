@@ -10,7 +10,7 @@ configuration {
     display-run: "   Run ";
     display-window: "     Window ";
     sidebar-mode: true;
-//    font: "Iosevka Nerd Font ExtraBold 12";
+    font: "Iosevka Nerd Font ExtraBold 12";
 }
 @theme "/dev/null"
 * {
@@ -29,6 +29,7 @@ configuration {
 window {
     height: 360px;
     border: 3px;
+    border-radius: 8px;
     border-color: @border-col;
     background-color: @bg-col;
 }
